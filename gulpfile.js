@@ -57,7 +57,7 @@ gulp.task('spdefault', function() {
     // changed in the cached files
     return gulp.src('src/**')
         .pipe(cached('spFiles'))
-        .pipe(gulp.dest("./output"))
+        .pipe(gulp.dest("./dist"))
         .pipe(spsave(coreOptions, creds));     
 });
 

@@ -1,4 +1,4 @@
-/* added by var */ 
+/* added in Speditor */ 
 .hello {
    background:red;
    display:none;
@@ -9,7 +9,4 @@
 } 
 #test2 {
     border: 1px solid blue;
-}
-#test3 {
-display: none;
 }
