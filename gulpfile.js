@@ -7,9 +7,9 @@ var spsave = require('gulp-spsave');  // upload to sharepoint
 var sppull = require("sppull").sppull; // pull from SP
 
 //-----   Global declarations -------//
-var siteurl = "https://corehero.sharepoint.com/sites/isha";
-var siteuser = "isha@corehero.onmicrosoft.com";
-var sitepw = "Pass@word1"
+var siteurl = "https://tenant.sharepoint.com/sites/sitecol";
+var siteuser = "username";
+var sitepw = "password"
 
 //------  SPPull functions ----// 
 var context = {
@@ -19,7 +19,7 @@ var context = {
 };
 
 var options = {
-    spRootFolder: "/Style Library/gulptest",
+    spRootFolder: "/Style Library/Images",
     dlRootFolder: "./src/",
     folderStructureOnly: false
 };
